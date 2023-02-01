@@ -1,0 +1,79 @@
+.first{
+    /* background-color: skyblue; */
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+padding: 5px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(219, 221, 224);
+    display: grid;
+    grid-template-rows: 28% 8% 64%;
+}
+/* .secondone{
+    height: 100px;
+    width:290px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px lightgray;
+} */
+/* .secondtwo button{
+    display: flex;
+    flex-direction: row;
+ border: none;
+    border-bottom: 1px solid lightgray;
+    height: 20px;
+    width: 20px;
+    color: green;
+} */
+    .secondtwo{
+        /* background-color: pink;; */
+        /* background-color: rgb(240, 238, 238); */
+        /* border: 1px solid rgb(230, 224, 224); */
+border: none;    }
+input{
+    background-color: rgb(248, 244, 244);
+    margin-top: 15px;
+    height: 80px;
+    width: 290px;
+    border: none;
+}
+.secondthree{
+    height: 290px;
+    width: 290px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+    /* border: 1px solid red; */
+    background-color: rgb(181, 181, 185);
+    display: grid;
+    /* border-radius: 100px; */
+    grid-template-columns: auto auto auto auto;
+    place-content: center;
+    gap: 20px;
+/* border: 1px solid red; */
+}
+.red{
+    display: flex;
+    justify-content: center;
+color: lightgray;}
+button{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(236, 225, 225);
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 5mm, ease-in;
+}
